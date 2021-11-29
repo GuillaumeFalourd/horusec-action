@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Run Horusec
         id: run_horusec
-        uses: fike/horusec-action@v0.1
+        uses: fike/horusec-action@v0.3
         with:
           arguments: --config-file-path=horusec-config.json
 ```
@@ -41,7 +41,7 @@ jobs:
     steps:
       - name: Run Horusec
         id: run_horusec
-        uses: fike/horusec-action@v0.1
+        uses: fike/horusec-action@v0.3
         with:
           arguments: -p="./" --ignore="**/.vscode/**, **/*.env, **/.mypy_cache/**, **/tests/**"
 ```
