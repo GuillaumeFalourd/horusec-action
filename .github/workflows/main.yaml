@@ -13,6 +13,6 @@ jobs:
         id: run_horusec
         uses: GuillaumeFalourd/horusec-action@main
         with:
-          arguments: -p="./"
+          arguments: -p ./
         
 
